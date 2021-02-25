@@ -1,17 +1,14 @@
-package com.humg.projectno1.entity;
+package com.humg.projectno1.dto;
 
 import lombok.Data;
 
 @Data
-public class User {
+public class UserInfo {
   private long id;
-  private String userName;
-  private String password;
   private String name;
   private int age;
-  private String address;
   private int sex;
   private String avatar;
+  private String address;
   private String email;
-  private int status;
 }
